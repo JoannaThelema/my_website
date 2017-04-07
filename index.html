@@ -39,20 +39,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">My Portfolio</a>
+                <a class="navbar-brand" href="#">Home</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">About</a></li>
                     <li>
                         <a href="#" data-toggle='dropdown'>Projects <span class='caret'></span></a>
                         <ul class='dropdown-menu'>
-                            <li><a href="#twitter">Twitter</a></li>
-                            <li><a href="#chat">Chat</a></li>
-                            <li><a href="#readinglist">ReadingList</a></li>
+                            <li><a href="#socialmedia">Social Media</a></li>
+                            <li><a href="#booklist">Book List</a></li>
+                            <!--<li><a href="#chat">Chat</a></li>-->
                         </ul>
                     </li>
-                    <li><a href="#about">About</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -65,7 +65,7 @@
         <div class="headline">
             <div class="container">
                 <h1>Joanna Płatek</h1>
-                <h2>Intern / Junior Rails Developer</h2>
+                <h2>Junior Ruby on Rails Developer</h2>
             </div>
         </div>
     </header>
@@ -75,62 +75,72 @@
 
         <hr class="featurette-divider">
 
-        <!-- Twitter -->
-        <div class="featurette well" id="twitter">
-            <img class="featurette-image img-responsive pull-right" src="img/s_a.png">
-            <h2 class="featurette-heading">Twitter
-                <span class="text-muted">Rails Tutorial</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <button type='button' class="btn btn-lg btn-default" onclick="location.href = 'https://pacific-hamlet-30596.herokuapp.com'">See Project</button>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Second Featurette -->
-        <div class="featurette well" id="chat">
-            <img class="featurette-image img-responsive pull-left" src="img/chat.png">
-            <h2 class="featurette-heading">The Second Heading
-                <span class="text-muted">Is Pretty Cool Too.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <button type='button' class="btn btn-lg btn-default">See Project</button>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Third Featurette -->
-        <div class="featurette well" id="readinglist">
-            <img class="featurette-image img-responsive pull-right" src="img/openbook1.gif">
-            <h2 class="featurette-heading">The Third Heading
-                <span class="text-muted">Will Seal the Deal.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <button type='button' class="btn btn-lg btn-default">Download from github</button>
-        </div>
-
-        <hr class="featurette-divider">
-
         <!-- About -->
-        <div class="featurette text-center well" id="about">
+        <div class="featurette well" id="about">
             <h2 class="featurette-heading">About
-                <span class="text-muted">cos cos cos</span>
+                <span class="text-muted">Me</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <button type='button' class="btn btn-lg btn-primary" onclick="location.href = 'https://github.com/JoannaThelema'">My profile on github</button>
+            <p class="lead">Self-paced and passionate online student preparing for professional development.
+              Lurking throughout the Internet and books to acquire knowledge of inner workings of information technologies.</p>
+            <p class="lead">I spent last 6 months learning RoR and gaining basic knowledge of dependent technologies.
+              As a passionate autodidact I am looking for an opportunity to master web technologies among like minded professionals.
+              Being communicative and openminded I would like to devote my time to successful and prosperous future of your buisness.
+               </p>
+            <button type='button' class="btn btn-lg btn-primary" onclick="location.href = 'https://github.com/JoannaThelema'">My profile on GitHub</button>
         </div>
 
         <hr class="featurette-divider">
 
+        <!-- Twitter -->
+        <div class="featurette well" id="socialmedia">
+            <img class="featurette-image img-responsive pull-right" src="img/s_a.png">
+            <h2 class="featurette-heading">Social Media
+                <span class="text-muted">Twitter clone</span>
+            </h2>
+            <p class="lead">Application I wrote when I was learning Ruby on Rails from Michael Hartl's tutorial.
+            </p>
+            <button type='button' class="btn btn-lg btn-default" onclick="location.href = 'https://pacific-hamlet-30596.herokuapp.com'">See Project</button>
 
-        <!-- Footer -->
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Book List -->
+        <div class="featurette well" id="booklist">
+            <img class="featurette-image img-responsive pull-left" src="img/openbook1.gif">
+            <h2 class="featurette-heading">Book List
+                <span class="text-muted">Books database</span>
+            </h2>
+            <p class="lead">Based on CodeSchool course.
+              Application for storying list of books you read.
+              The list includes books I am curently working with.
+              Work in progres.</p>
+            <button type='button' class="btn btn-lg btn-default" onclick="location.href = 'https://stark-fortress-99347.herokuapp.com'">See Project</button>
+            <button type='button' class="btn btn-lg btn-default" onclick="location.href = 'https://github.com/JoannaThelema/ReadingList.git'">Download from GitHub</button>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Chat -->
+        <!--<div class="featurette well" id="chat">
+            <img class="featurette-image img-responsive pull-right" src="img/chat.png">
+            <h2 class="featurette-heading">Chat
+                <span class="text-muted">Action Cable Tutorial</span>
+            </h2>
+            <p class="lead">Next application form Michael Hartl's tutorial. </p>
+            <button type='button' class="btn btn-lg btn-default">cos cos cos</button>
+        </div>
+
+        <hr class="featurette-divider">-->
+
+        <!-- Footer
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>cos cos cos cos cos</p>
+                    <p>nie wiem co tu ma sie znaleźć</p>
                 </div>
             </div>
-        </footer>
+        </footer>-->
 
     </div>
     <!-- /.container -->
